@@ -1,0 +1,33 @@
+polySphere -radius 3 -subdivisionsX 20 -subdivisionsY 20 -axis 0 1 0 -createUVs 2 -constructionHistory 1;
+move -radius 0 2.5 0 ;
+scale -radius 1 0.85 1 ;
+polySphere -radius 2.3 -subdivisionsX 20 -subdivisionsY 20 -axis 0 1 0 -createUVs 2 -constructionHistory 1;
+move -radius 0 5.8 0 ;
+scale -radius 1 0.85 1 ;
+polySphere -radius 1.5 -subdivisionsX 20 -subdivisionsY 20 -axis 0 1 0 -createUVs 2 -constructionHistory 1;
+move -radius 0 8.5 0 ;
+scale -radius 1 0.9 1 ;
+polyCone -radius 1 -height 2 -subdivisionsX 20 -subdivisionsY 1 -subdivisionsZ 0 -axis 0 1 0 -roundCap 0 -createUVs 3 -constructionHistory 1;
+setAttr "pCone1.rotateZ" -90;
+move -radius 1.8 8.3 0 ;
+scale -radius 0.334458 0.6 0.334458 ;
+polySphere -radius 0.2 -subdivisionsX 20 -subdivisionsY 20 -axis 0 1 0 -createUVs 2 -constructionHistory 1;
+move -radius 1.2 8.5 0.8 ;
+polySphere -radius 0.2 -subdivisionsX 20 -subdivisionsY 20 -axis 0 1 0 -createUVs 2 -constructionHistory 1;
+move -radius 1.2 8.5 -.8
+polyCylinder -radius 1.2 -height 2 -subdivisionsX 20 -subdivisionsY 1 -subdivisionsZ 1 -axis 0 1 0 -roundCap 0 -createUVs 3 -constructionHistory 1;
+scale -radius 1 1.211942 1 ;
+rotate -radius -os -fo 0 0 12 ;
+move -radius -0.45 10.5 0 ;
+polyCylinder -radius 1 -height 2 -subdivisionsX 20 -subdivisionsY 1 -subdivisionsZ 1 -axis 0 1 0 -roundCap 0 -createUVs 3 -constructionHistory 1;
+scale -radius 2 0.2 2 ;
+rotate -radius -os -fo 0 0 12.8 ; 
+move -radius -.2 9.4 0 ;
+polyCylinder -radius 1 -height 2 -subdivisionsX 20 -subdivisionsY 1 -subdivisionsZ 1 -axis 0 1 0 -roundCap 0 -createUVs 3 -constructionHistory 1;
+move -radius 0 6 -4 ;
+rotate -radius -os -fo 90 0 0 ;
+scale -radius .15 2.5 .15
+polyCylinder -radius 1 -height 2 -subdivisionsX 20 -subdivisionsY 1 -subdivisionsZ 1 -axis 0 1 0 -roundCap 0 -createUVs 3 -constructionHistory 1;
+move -radius 0 6 4 ;
+rotate -radius -os -fo 90 0 0 ;
+scale -radius .15 2.5 .15
